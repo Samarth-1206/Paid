@@ -11,8 +11,8 @@ from SONALI.utils.formatters import time_to_seconds
 import aiohttp
 from SONALI import LOGGER
 
-YOUR_API_URL = None
-FALLBACK_API_URL = "https://shrutibots.site"
+YOUR_API_URL = "NxGBNexGenBots4556e3"
+FALLBACK_API_URL = "NxGBNexGenBots4556e3"
 
 async def load_api_url():
     global YOUR_API_URL
