@@ -15,17 +15,17 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 
 LOGGER_ID = int(getenv("LOGGER_ID", -1003423141817))
-OWNER_ID = int(getenv("OWNER_ID", 8341610251))
+OWNER_ID = int(getenv("OWNER_ID", 8235943571))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Samarth-1206/spark")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Samarth-1206/paid")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+kcfMgo7sVfk1YzY1")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+Mm4FuIz5c8Y5ODI9")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/onlysecurityhelp")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+aPMV4KDAv-c5Njcx")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
